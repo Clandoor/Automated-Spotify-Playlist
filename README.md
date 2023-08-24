@@ -101,5 +101,5 @@
 </ol>
 
 <h2>Conclusion</h2>
-  <p>Once all these prerequisities are completed, you are good to go.</p>
+  <p>Once all these prerequisities are completed, you are good to go!</p>
   <p>Feel free to reach out to me if you run into any issues :)</p>

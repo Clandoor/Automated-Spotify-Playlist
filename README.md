@@ -84,7 +84,22 @@
     <img width="554" alt="image" src="https://github.com/Clandoor/Automated-Spotify-Playlist/assets/42005547/15362015-0407-4e92-a181-8bbd76141d62">
   <p>As a result, 'token.txt' file will be generated with authorization details which will be used everytime the Python Script tries to access the Spotify App.</p>
   <img width="119" alt="image" src="https://github.com/Clandoor/Automated-Spotify-Playlist/assets/42005547/e8de0ae3-dc10-43c4-9742-497cea55b49a">
+  
+<h2>Understanding SpotifyOAuth Parameters</h2>
+<ol>
+  <li>'scope': This parameter will determine what the third party app (Our Python Script) can access in the Spotify App.
+  <ul>
+    <li>Here, we have set it to 'playlist-modify-private' as per the needs of this project (Can view and edit Private Playlists)</li>
+  </ul>
+  </li>
+  <li>'redirect_uri': Once the authorization is done, the app will be redirected to some URI. Progressing further from that URI, token will be sent to the third party app as a form of authorization.</li>
+  <li>'client_id': The ID of the Spotify APP client. Similar to Username.</li>
+  <li>'client_secret': Similar to the password. With these two, the third party app can access the Spotify App asking for authorization.</li>
+  <li>'cache_path': The name of the file where the token access token will be stored which will be needed to access the Spotify App by the third party client.</li>
+  <li>'username': Your Spotify Username.</li>
+</ol>
+</ol>
 
-  <h3>Conclusion</h3>
+<h2>Conclusion</h2>
   <p>Once all these prerequisities are completed, you are good to go.</p>
   <p>Feel free to reach out to me if you run into any issues :)</p>
